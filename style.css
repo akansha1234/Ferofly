@@ -1,0 +1,155 @@
+.navbar{
+  		text-align: center;
+  		height:80px;
+     background-color:black;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:99;
+  	}
+  	.nav{
+  		
+  		margin:0 auto;
+  		align-items: center;
+  	}
+  	.nav a{
+  		color:white;
+  		text-decoration: none;
+      margin-bottom:55px;
+      
+  	}
+.d-flex{
+  		display: flex;
+  		justify-content: space-around;
+  text-wrap:no-wrap;
+  	}
+.nav{
+  width:900px;
+}
+.btn{
+  		background-color:black;
+  		color: white;
+  		border:1px solid white;
+  		padding:10px;
+      margin-bottom:55px;
+  	}
+  	.btn:hover{
+  		color: white;
+  	}
+.heading{
+  		text-align: center;
+  		margin-top:8%;
+  		font-family: 'GFS Didot', serif;
+  	}
+.image1{
+   width:100%;
+   margin-top:5%;
+}
+.form{
+/* border:1px solid black;  */
+  margin-top:10%;
+/*   max-width:800px; */
+  color:grey;
+  justify-content:space-evenly;
+}
+.form p{
+  font-size:13px;
+}
+.form input{
+  color:grey;
+  border:1px solid grey;
+}
+.search{
+  		padding:0px 25px;
+     margin-top:3%;
+  	}
+.about{
+  		text-align: center;
+  		color: grey;
+  		margin-top: 13%;
+  	}
+.aboutPara{
+  margin-top:8%;
+  font-family: 'GFS Didot', serif;
+}
+.rooms{
+  position:relative;
+  text-align:center;
+  margin-top:15%;
+}
+.room{
+  position:absolute;
+/*   border:1px solid black; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:white;
+  color:grey;
+  padding:20px;
+}
+.btn-rooms{
+  background:transparent;
+  border:1px solid black;
+  color:black;
+}
+.services{
+  text-align:center;
+  margin-top:10%;
+  color:grey;
+}
+.row{
+  margin-top:65px;
+}
+.gallery{
+  text-align:center;
+  margin-top:10%;
+  color:grey;
+}
+.image2{
+  width:100%;
+  height:500px;
+}
+.image2:hover{
+  opacity:0.5;
+  cursor:pointer;
+}
+.things{
+  color:grey;
+  text-align:center;
+  margin-top:10%;
+}
+.left{
+  position:fixed;
+  bottom:10px;
+  left:5px;
+  border:1px solid black;
+  border-radius:100px;
+  padding:10px;
+  background:black;
+  color:white;
+}
+.left i{
+  font-size:28px;
+}
+.right{
+  position:fixed;
+  top:30%;
+  right:5px;
+}
+.right i{
+  display:block;
+  font-size:28px;
+  margin-top:50px;
+}
+.padding-0{
+  padding-left:0;
+  pading-right:0;
+}
+.review{
+  position:relative;
+  text-align:center;
+  margin-top:10%;
+}
+.review img{
+  opacity:0.8;
+}
