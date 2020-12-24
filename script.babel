@@ -1,0 +1,222 @@
+function Header(){
+  return(
+    <div className="main">
+  <nav className="navbar navbar-inverse navbar-fixed-top">
+  <div className="container-fluid">
+    <div className="d-flex nav">
+    	<a href="#">HOME</a>
+    	<a href="#">ABOUT</a>
+    	<a href="#">ROOMS</a>
+    	<a href="#">SERVICES</a>
+    	<a href="#">GALLERY</a>
+    	<a href="#">SEE & DO</a>
+    	<a href="#">CONTACT</a>
+    	<button className="btn book">Book A Room</button>
+    </div>
+  </div>
+</nav>
+ </div>
+  )
+}
+ 
+function Heading(){
+  return (
+    <div className="heading">
+    <h1><i>Ferofly</i></h1>
+			<h3><i>-Magnify your journey-</i></h3>
+      </div>
+  )
+}
+function Form(){
+  return(
+  <form className="form">
+      <div className="form-row no-gutters">
+      <div className="form-group col-sm-3 col-lg-3 padding-0">
+        <p>Check In</p>
+					<input type="date"/>
+				    </div>
+				    <div className="form-group col-sm-3  col-lg-3 padding-0">
+				    	<p>Check Out</p>
+					<input type="date"/>
+				    </div>
+				    <div className="form-group col-sm-2 padding-0">
+				    	<p>Adults</p>
+					<input type="number" min="1" max="100" value="1"/>
+				    </div>
+				    <div className="form-group col-sm-2 padding-0">
+				    	<p>Kids</p>
+					<input type="number" min="1" max="100" value="0"/>
+				    </div>
+      <div className="col-sm-2 search padding-0">
+					<button className="btn btn-lg search">Search</button>
+      </div>
+        </div>
+				</form>
+  )
+}
+function About(){
+  return(
+  <div className="about">
+				<h5>ABOUT</h5>
+				<p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click <br/>“Edit Text” or double click me to add your own content and make changes to the <br/>font. Feel free to drag and drop me anywhere you like on your page. I’m a great<br/> place for you to tell a story and let your users know a little more about you.</i></p>
+			</div>
+  )
+}
+function Rooms(){
+  return(
+  <div className="rooms">
+      <img src="https://images.unsplash.com/photo-1560067174-e553b3647603?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" className="image1"/>
+      <div className="room">
+        <h5>OUR ROOMS</h5>
+        <p className="aboutPara"><i>
+          I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+        </i></p>
+        <button className="btn btn-rooms">Book A Room</button>
+      </div>
+      </div>
+  )
+}
+function Services(){
+  return(
+  <div className="services">
+      <h5>OUR SERVICES</h5>
+      <div className="row">
+        <div className="col-sm-4">
+        <i class='fas fa-coffee'></i>
+          <h6>Breakfast</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <i className='fas fa-tree'></i>
+          <h6>Garden</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+         <i className='fas fa-water'></i>
+          <h6>Waterfall</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+      </div>
+      
+      <div className="row">
+        <div className="col-sm-4">
+         <i class="fa fa-wifi"></i>
+          <h6>Free Wifi</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <i class='fas fa-tshirt'></i>
+          <h6>Daily Housekeeping</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+         <i class='fas fa-concierge-bell'></i>
+          <h6>In-Room Dining Service</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+      </div>
+      </div>
+  )
+}
+function Gallery(){
+  return(
+  <div className="gallery">
+      <h5>GALLERY</h5>
+      <div className="row">
+        <div className="col-sm-4">
+          <img src="https://images.unsplash.com/photo-1560920452-dcdcbbb4e117?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80" className="image2"/>
+        </div>
+        <div className="col-sm-4">
+          <img src="https://images.unsplash.com/photo-1573836469204-9386d81a67a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" className="image2"/>
+        </div>
+        <div className="col-sm-4">
+          <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OTN8fGhvdGVsc3xlbnwwfDF8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" className="image2"/>
+        </div>
+      </div>
+      </div>
+  )
+}
+function Things(){
+  return(
+  <div className="things">
+      <h5>THINGS TO DO </h5>
+      <div className="row">
+        <div className="col-sm-4">
+          <h6>Wineries Tour</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <h6>Cultural Sites</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <h6>Market Tour </h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-sm-4">
+          <h6>Leisure Activities</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <h6>Birds Safari</h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+        <div className="col-sm-4">
+          <h6>Horse Riding </h6>
+          <p className="aboutPara"><i>I'm a paragraph. Click here to add your own text and edit me.</i></p>
+        </div>
+      </div>
+      </div>
+  )
+}
+function Review(){
+  return(
+  <div className="review">
+      <img src="https://images.unsplash.com/photo-1557808051-a7642867211c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Z2FyZGVuJTIwd2l0aCUyMGZsb3dlcnN8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" className="image1"/>
+      <div className="room">
+        <h5>GUEST REVIEW</h5>
+        <p className="aboutPara"><i>
+          “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+        </i></p>
+      </div>
+      </div>
+  )
+}
+function App(){
+  return (
+    <div>
+      <Header />
+      <div className="container">
+	<div className="row">
+		<div className="col-sm-1">
+      <div className="left">
+      <i class='far fa-comment-dots'></i>
+      </div>
+		</div>
+		<div className="col-sm-10">
+      <Heading />
+      <img src="https://images.unsplash.com/photo-1559252669-dab0e95b90f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" className="image1"/>
+      <Form/>
+      <About/>
+      <Rooms/>
+      <Services/>
+      <Gallery />
+      <Things/>
+      <Review/>
+    </div>
+    <div className="col-sm-1">
+      <div className="right">
+      <i class='fab fa-tripadvisor'></i>
+      <i class='fab fa-facebook-f'></i>
+      <i class='fab fa-instagram'></i>
+      </div>
+		</div>
+        </div>
+      </div>
+      </div>
+  )
+}
+
+ ReactDOM.render(<App/>,document.getElementById("root"))
